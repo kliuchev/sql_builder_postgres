@@ -10,7 +10,9 @@ environment:
 # Add regular dependencies here.
 dependencies:
   sql_builder:
-    path: "../sql_builder"
+    git:
+      url: https://github.com/kliuchev/sql_builder.git
+      ref: 0.0.1
   postgres: ^3.1.0
 
 dev_dependencies:

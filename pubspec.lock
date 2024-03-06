@@ -316,10 +316,12 @@ packages:
   sql_builder:
     dependency: "direct main"
     description:
-      path: "../sql_builder"
-      relative: true
-    source: path
-    version: "1.0.0"
+      path: "."
+      ref: "0.0.1"
+      resolved-ref: "273d356f699728eeebdd31e08cfe90b16f6a3cd2"
+      url: "https://github.com/kliuchev/sql_builder.git"
+    source: git
+    version: "0.0.1"
   stack_trace:
     dependency: transitive
     description:

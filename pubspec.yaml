@@ -1,0 +1,18 @@
+name: sql_builder_postgres
+description: A sample command-line application.
+version: 1.0.0
+publish_to: 'none'
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.2.6
+
+# Add regular dependencies here.
+dependencies:
+  sql_builder:
+    path: "../sql_builder"
+  postgres: ^3.1.0
+
+dev_dependencies:
+  lints: ^2.1.0
+  test: ^1.24.0
